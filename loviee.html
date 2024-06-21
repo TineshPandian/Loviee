@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loveiee</title>
+    <link rel="stylesheet" href="loviee.css">
+</head>
+<body>
+    <div class="container">
+    
+    <div class="male">
+        <h3>Your Date</h3>
+        <br>
+        <label>Day</label>
+        <input type="number" id="day1" min="1" max="31">
+        <label>Month</label>
+        <input type="number" id="month1" min="1" max="12">
+        <label>Year</label>
+        <input type="number" id="year1" min="1" max="9999">
+    </div>
+    <br>
+    <h1 id="and">&</h1>
+    <br>
+    
+    <div class="Female">
+        <h3>Partner Date</h3>
+        <br>
+        <label>Day</label>
+        <input type="number" id="day2" min="1" max="31">
+        <label>Month</label>
+        <input type="number" id="month2" min="1" max="12">
+        <label>Year</label>
+        <input type="number" id="year2" min="1" max="9999">
+    </div>
+    <br>
+
+    <button onclick="checks()">Check</button>
+
+    <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h3>Your Love </h3>
+            <br>
+            <p id="result"> hello</p>
+            <button id="close" onclick="backs()">Back</button>
+           
+        </div>
+    </div>
+
+
+    <script src="loviee.js">
+
+    </script>
+
+    
+</body>
+</html>
